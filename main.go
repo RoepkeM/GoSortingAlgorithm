@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/RoepkeM/GoSortinAlgorithm/sortingAlgo"
+	sort "github.com/RoepkeM/GoSortinAlgorithm/sortingAlgo"
 	"math/rand"
 	"time"
 )
@@ -25,11 +25,13 @@ func main() {
 
 	t0 := time.Now()//Start of the timer
 
-	list, name =ordenacion.Burbuja(list)
-	//list,name=ordenacion.Seleccion(list)
-	//list,name=ordenacion.Insercion(list)
-	//list,name=ordenacion.InicioMerge(list)
-	//list,name=ordenacion.Quicksort(list)
+	//Chose the algorithm that you what to execute
+
+	list, name =sort.Bubble(list)
+	//list,name=sort.Selection(list)
+	//list,name=sort.Insertion(list)
+	//list,name=sort.MergeStart(list)
+	//list,name= sort.Quicksort(list)
 
 	t1 := time.Since(t0)//End of the timer
 
