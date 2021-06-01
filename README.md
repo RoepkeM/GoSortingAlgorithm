@@ -1,5 +1,4 @@
-# Go Sorting Algorithm
-
+<h1 style="color:#1CC9E77F">Go Sorting Algorithm</h1>
 In this repository you will find five basic sorting algorithms written in go language, the algorithms are:
 bubble sort, insertion sort, selection sort, merge sort and quicksort.
 
